@@ -11,13 +11,12 @@
 
   <body>
 
-    <%= render 'layouts/navigation' %>
-    <%= render 'layouts/messages' %>
+    <%= render 'navigation' %>
+    <%= render 'messages' %>
     <div class="container">
       <%= yield %>
     </div>
-    <% #render 'layouts/footer' %>
-    <%= render :template => 'layouts/footer', :formats => [:html] %>
+    <% render 'footer' %>
 
 
     
