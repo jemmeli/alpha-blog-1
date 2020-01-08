@@ -10,6 +10,10 @@ class ArticlesController < ApplicationController
 		@article = Article.new
 	end
 
+	def set_article
+
+	end
+
 	def show
 		#@article = Article.find(params[:id])
 	end
