@@ -16,7 +16,8 @@
     <div class="container">
       <%= yield %>
     </div>
-    <%= render 'layouts/footer' %>
+    <% #render 'layouts/footer' %>
+    <%= render :template => 'layouts/footer', :formats => [:html] %>
 
 
     
