@@ -9,8 +9,8 @@ gem 'rails', '~> 5.2.3'
 #for password
 gem 'bcrypt', '~> 3.1.7'
 #for pagination
-gem 'will_paginate', '3.0.7'
-gem 'bootstrap-will_paginate', '0.0.10'
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0' 
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
