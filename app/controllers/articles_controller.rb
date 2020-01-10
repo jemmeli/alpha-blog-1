@@ -6,8 +6,7 @@ class ArticlesController < ApplicationController
 
 	def index
 		#@articles = Article.all
-		debbugger
-		@articles = Article.paginate(page: params[:page], per_page: 5)
+		@articles = @articles.paginate(page: params[:page], per_page: 5)
 
 	end
 
